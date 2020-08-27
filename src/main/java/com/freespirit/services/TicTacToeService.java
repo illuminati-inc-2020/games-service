@@ -4,8 +4,8 @@ import java.util.ArrayList;
 
 import org.springframework.stereotype.Service;
 
-import com.freespirit.models.tictactoe.Line;
-import com.freespirit.models.tictactoe.Point;
+import com.freespirit.models.Line;
+import com.freespirit.models.Point;
 import com.freespirit.models.tictactoe.TicTacToeBoard;
 import com.freespirit.models.tictactoe.TicTacToeCell;
 

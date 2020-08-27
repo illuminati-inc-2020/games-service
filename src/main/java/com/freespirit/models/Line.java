@@ -1,4 +1,4 @@
-package com.freespirit.models.tictactoe;
+package com.freespirit.models;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
