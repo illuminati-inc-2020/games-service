@@ -43,9 +43,9 @@ public class TicTacToeController {
 		return service.mark(row, column);
 	}
 	
-	@RequestMapping(value = "/restart", method = RequestMethod.PUT, produces = {"application/json"})
+	@RequestMapping(value = "/new-game", method = RequestMethod.POST, produces = {"application/json"})
 	@ResponseStatus(code = HttpStatus.OK)
-	public TicTacToeBoard restart(
+	public TicTacToeBoard newGame(
 			HttpServletRequest request, 
 			HttpServletResponse response) {
 		return service.clear();

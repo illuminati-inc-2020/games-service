@@ -30,9 +30,9 @@ public class TowersOfHanoiController {
 		return service.towers();
 	}
 	
-	@RequestMapping(value = "/restart", method = RequestMethod.PUT)
-	public TowersOfHanoi restart(
-			@RequestParam @Min(3) Integer numberOfRings,
+	@RequestMapping(value = "/new-game", method = RequestMethod.POST)
+	public TowersOfHanoi newGame(
+			@RequestParam(required=false, defaultValue="5") @Min(3) Integer numberOfRings,
 			HttpServletRequest request, 
 			HttpServletResponse response) {
 		service.init(numberOfRings);
