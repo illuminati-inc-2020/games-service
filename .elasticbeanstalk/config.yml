@@ -1,0 +1,5 @@
+branch-defaults:
+  master:
+    environment: game-service-dev
+global:
+  profile: eb-cli

@@ -169,6 +169,12 @@
 		    <artifactId>jedis</artifactId>
 		    <version>3.3.0</version>
 		</dependency>
+		
+		<dependency>
+		    <groupId>com.google.googlejavaformat</groupId>
+		    <artifactId>google-java-format</artifactId>
+		    <version>1.9</version>
+		</dependency>
     </dependencies>
 
     <build>
@@ -177,6 +183,36 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
+            <plugin>
+				<groupId>com.cosium.code</groupId>
+				<artifactId>maven-git-code-format</artifactId>
+				<version>VERSION</version>
+				<executions>
+					<execution>
+						<goals>
+							<goal>install-hooks</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<artifactId>maven-enforcer-plugin</artifactId>
+				<version>VERSION</version>
+				<executions>
+					<execution>
+						<goals>
+							<goal>enforce</goal>
+						</goals>
+						<configuration>
+							<rules>
+								<requireMavenVersion>
+									<version>[3.5.4,)</version>
+								</requireMavenVersion>
+							</rules>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
         </plugins>
     </build>
 </project>
