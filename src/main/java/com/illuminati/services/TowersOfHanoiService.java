@@ -1,11 +1,11 @@
-package com.freespirit.services;
+package com.illuminati.services;
 
 import java.util.Stack;
 
 import org.springframework.stereotype.Service;
 
-import com.freespirit.models.towersofhanoi.Tower;
-import com.freespirit.models.towersofhanoi.TowersOfHanoi;
+import com.illuminati.models.towersofhanoi.Tower;
+import com.illuminati.models.towersofhanoi.TowersOfHanoi;
 
 @Service
 public class TowersOfHanoiService {

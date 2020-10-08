@@ -1,4 +1,4 @@
-package com.freespirit.models.towersofhanoi;
+package com.illuminati.models.towersofhanoi;
 
 import java.util.Stack;
 

@@ -1,4 +1,4 @@
-package com.freespirit;
+package com.illuminati;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

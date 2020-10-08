@@ -1,13 +1,13 @@
-package com.freespirit.services;
+package com.illuminati.services;
 
 import java.util.ArrayList;
 
 import org.springframework.stereotype.Service;
 
-import com.freespirit.models.Line;
-import com.freespirit.models.Point;
-import com.freespirit.models.tictactoe.TicTacToeBoard;
-import com.freespirit.models.tictactoe.TicTacToeCell;
+import com.illuminati.models.Line;
+import com.illuminati.models.Point;
+import com.illuminati.models.tictactoe.TicTacToeBoard;
+import com.illuminati.models.tictactoe.TicTacToeCell;
 
 @Service
 public class TicTacToeService {

@@ -1,4 +1,4 @@
-package com.freespirit.controllers;
+package com.illuminati.controllers;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -9,9 +9,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.freespirit.models.towersofhanoi.Tower;
-import com.freespirit.models.towersofhanoi.TowersOfHanoi;
-import com.freespirit.services.TowersOfHanoiService;
+import com.illuminati.models.towersofhanoi.Tower;
+import com.illuminati.models.towersofhanoi.TowersOfHanoi;
+import com.illuminati.services.TowersOfHanoiService;
 
 @RestController
 @RequestMapping("/api/v1/towersofhanoi")

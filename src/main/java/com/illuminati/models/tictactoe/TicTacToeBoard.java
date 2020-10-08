@@ -1,7 +1,7 @@
-package com.freespirit.models.tictactoe;
+package com.illuminati.models.tictactoe;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.freespirit.models.Line;
+import com.illuminati.models.Line;
 
 import lombok.Data;
 

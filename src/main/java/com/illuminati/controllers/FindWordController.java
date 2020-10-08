@@ -1,4 +1,4 @@
-package com.freespirit.controllers;
+package com.illuminati.controllers;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.freespirit.models.findwords.FindWordGame;
-import com.freespirit.services.FindWordService;
+import com.illuminati.models.findwords.FindWordGame;
+import com.illuminati.services.FindWordService;
 
 @RestController
 @RequestMapping("/api/v1/findword")

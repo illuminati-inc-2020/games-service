@@ -1,4 +1,4 @@
-package com.freespirit.controllers;
+package com.illuminati.controllers;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.freespirit.models.tictactoe.TicTacToeBoard;
-import com.freespirit.services.TicTacToeService;
+import com.illuminati.models.tictactoe.TicTacToeBoard;
+import com.illuminati.services.TicTacToeService;
 
 @RestController
 @RequestMapping("/api/v1/tictactoe")

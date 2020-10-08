@@ -1,4 +1,4 @@
-package com.freespirit.models;
+package com.illuminati.models;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

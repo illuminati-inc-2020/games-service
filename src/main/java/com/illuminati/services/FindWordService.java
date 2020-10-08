@@ -1,8 +1,8 @@
-package com.freespirit.services;
+package com.illuminati.services;
 
 import org.springframework.stereotype.Service;
 
-import com.freespirit.models.findwords.FindWordGame;
+import com.illuminati.models.findwords.FindWordGame;
 
 @Service
 public class FindWordService {

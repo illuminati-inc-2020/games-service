@@ -1,4 +1,4 @@
-package com.freespirit.models.findwords;
+package com.illuminati.models.findwords;
 
 import java.util.ArrayList;
 import java.util.Random;

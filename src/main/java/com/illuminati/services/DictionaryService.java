@@ -1,4 +1,4 @@
-package com.freespirit.services;
+package com.illuminati.services;
 
 import java.io.File;
 import java.io.FileNotFoundException;
