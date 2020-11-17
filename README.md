@@ -1,7 +1,7 @@
 # Games
  - Tic Tac Toe
  - Towers of Hanoi
- - Find Words
+ - Find Words from list of Letters (Incomplete)
  - ...
  
  ## How to run ##
