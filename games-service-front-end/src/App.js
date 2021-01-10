@@ -1,17 +1,19 @@
-import React from 'react';
-import Component from 'react';
-import Router from 'react';
-import Route from 'react';
+import React, { Component } from 'react';
 import './App.css';
-import './TicTacToe.js';
+import Home from './Home';
+import TicTacToe from './TicTacToe';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 class App extends Component {
   render() {
     return (
       <Router>
-        <Route exact path="/tictactoe" component={TicTacToe} />
+        <Switch>
+          <Route path='/' exact={true} component={Home}/>
+          <Route path='/tic-tac-toe' exact={true} component={TicTacToe}/>
+        </Switch>
       </Router>
-    );
+    )
   }
 }
 
