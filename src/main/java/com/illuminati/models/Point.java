@@ -13,7 +13,9 @@ public class Point {
 	@JsonProperty("y")
 	private int y;
 	
-	public Point() {}
+	public Point() {
+		this(0, 0);
+	}
 	
 	public Point(int x, int y) {
 		this.x = x;
