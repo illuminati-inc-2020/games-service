@@ -1,9 +1,11 @@
 package com.illuminati.services;
 
+import com.illuminati.utils.CommonUtils;
+
 public abstract class CommonBoardGameService {
 	
 	protected int rollDice() {
-		return 1 + (int)(Math.random() * 5);
+		return CommonUtils.random(1, 6);
 	}
 
 }

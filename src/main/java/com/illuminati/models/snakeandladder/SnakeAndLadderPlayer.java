@@ -12,4 +12,8 @@ public class SnakeAndLadderPlayer {
 	private SnakeAndLadderBoard board;
 	private int position;
 	
+	public SnakeAndLadderPlayer(String name, Color color, SnakeAndLadderBoard board) {
+		
+	}
+	
 }
